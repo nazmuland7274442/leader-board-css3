@@ -1,3 +1,82 @@
-h1{
-    color: aqua;
+/* main part style */
+body{
+    width: 100%;
+    height: 1220px;
+    background: #F3F1FF;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.contanir{
+    background-color: #ffffff;
+    width: 870px;
+    padding: 30px;
+}
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+    padding: 20px 0px 33px 33px;
+}
+.top-players{
+    width: 870px;
+    border-radius: 5px;
+    background: #FFF;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 5px;
+    background: #FFF;
+}
+.player img{
+    width: 60px;
+    height: 60px;
+}
+.player{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   padding-bottom: 30px;
+   padding-left: 33px;
+}
+.player-name{
+    font-size: 18px;
+}
+hr{
+    width: 807px;
+    height: 1px;
+    background: #D1D1D1;
+    color: #D1D1D1;
+    margin-bottom: 27px;
+}
+
+/* -----
+--------top blog style-----
+----------- */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap:26px;
+}
+.blog{
+    display: flex;
+    align-items: top;
+}
+.blog .thamnel img{
+    width: 224px;
+    height: 127px;
+}
+.blog-info{
+    margin-left: 15px;
+}
+.blog-title{
+    font-size: 20px;
+    width: 200px;
+    height: 30px;
+}
+.blog-author a{
+    font-size: 16px;
+    color: #562EFF;
+    text-decoration: none;
 }
