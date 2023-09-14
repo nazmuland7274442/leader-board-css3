@@ -1,3 +1,28 @@
+.header{
+    width: 1440px;
+    height: 94px;
+    background: #562EFF;
+    display: flex;
+    align-items: center;
+}
+.header-icon img{
+    width: 40px;
+    height: 51px;
+    padding-top: 20px;
+    padding-left: 285px;
+}
+.header h3{
+    color: #FFF;
+    font-size: 24px;
+    padding-left: 7px;
+}
+.with-profile{
+    display: flex;
+    align-items: center;
+    padding-left: 647px;
+    padding-right: 28px;
+    gap: 15px;
+}
 /* main part style */
 body{
     width: 100%;
